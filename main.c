@@ -7,7 +7,7 @@ float fahrenheit_to_celsius(float temp_f) {
   return celsius;
 }
 float celsius_to_fahrenheit(float temp_c) {
-  float fahrenheit = ((temp_c * 9) * 5) / 5;
+  float fahrenheit = ((temp_c * 9) / 5) + 32;
   return fahrenheit;
 }
 
